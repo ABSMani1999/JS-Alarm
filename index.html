@@ -8,33 +8,94 @@
         <meta name="author" content="John Doe">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <style>
-            body{
-                width:50%;
-                margin:auto;
-                background-color:#9dc6ee;
-            }
-            input{
-                margin-top: 50px;
-                margin-left: 140px;
-                height:400px;
-                width:400px;
-                border-radius: 50%;
-                font-size: 100px;
-                border: none;
-                background-color:rgb(221, 242, 243);  
-                cursor: pointer; 
+
+            @media(min-width:320px){
+                body{
+                    width:100%;
+                    margin:auto;
+                    background-color:#9dc6ee;
+                }
+                input{
+                    margin-top: 50px;
+                    margin-left: 2rem;
+                    height: 16rem;
+                    width: 16rem;
+                    border-radius: 50%;
+                    font-size: 100px;
+                    border: none;
+                    background-color: rgb(221, 242, 243);
+                    cursor: pointer;
+                }
+                button{
+                    font-size: 22px;
+                    margin-left: 20%;
+                    width:200px;
+                    height:50px;
+                    border: none;
+                    border-radius: 10px;
+                    background-color: bisque;
+                    cursor: pointer;
+                }
             }
 
-            button{
-                font-size: 22px;
-                margin-left: 100px;
-                width:200px;
-                height:50px;
-                border: none;
-                border-radius: 10px;
-                background-color: bisque;
-                cursor: pointer;
+            @media(min-width:620px){
+                body{
+                    width:50%;
+                    margin:auto;
+                    background-color:#9dc6ee;
+                }
+                input{
+                    margin-top: 50px;
+                    margin-left:0;
+                    height:20rem;
+                    width:20rem;
+                    border-radius: 50%;
+                    font-size: 100px;
+                    border: none;
+                    background-color:rgb(221, 242, 243);  
+                    cursor: pointer; 
+                }
+                button{
+                    font-size: 22px;
+                    margin-left: 25%;
+                    width:200px;
+                    height:50px;
+                    border: none;
+                    border-radius: 10px;
+                    background-color: bisque;
+                    cursor: pointer;
+                }
             }
+
+            @media(min-width:1000px){
+                body{
+                    width:50%;
+                    margin:auto;
+                    background-color:#9dc6ee;
+                }
+                input{
+                    margin-top: 50px;
+                    margin-left: 140px;
+                    height:400px;
+                    width:400px;
+                    border-radius: 50%;
+                    font-size: 100px;
+                    border: none;
+                    background-color:rgb(221, 242, 243);  
+                    cursor: pointer; 
+                }
+                button{
+                    font-size: 22px;
+                    margin-left: 100px;
+                    width:200px;
+                    height:50px;
+                    border: none;
+                    border-radius: 10px;
+                    background-color: bisque;
+                    cursor: pointer;
+                }
+            }
+
 
             button:active{
                 background-color: #9dc6ee;
